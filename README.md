@@ -16,7 +16,7 @@ This is a repo to record my learning process. :smirk:
 - [ ] TODO
 - [ ] TODO
 
-### template
+### Template
 
 - [ ] TODO
 - [ ] TODO
