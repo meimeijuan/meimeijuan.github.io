@@ -3,3 +3,21 @@
 You can use the [editor on GitHub](https://github.com/meimeijuan/meimeijuan.github.io/edit/main/README.md) to maintain and preview the content for my website in Markdown files.
 
 This is a repo to record my learning process. :smirk:
+
+## c++ programming
+
+### basic
+
+- [X] [pointer.md](./pointer.md) :hot_pepper: :hot_pepper: :hot_pepper:
+
+### object-oriented
+
+- [ ] TODO
+- [ ] TODO
+- [ ] TODO
+
+### template
+
+- [ ] TODO
+- [ ] TODO
+- [ ] TODO
