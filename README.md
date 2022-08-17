@@ -8,7 +8,7 @@ This is a repo to record my learning process. :smirk:
 
 ### Basic
 
-- [X] [pointer.md](./pointer.md) :hot_pepper: :hot_pepper: :hot_pepper:
+- [X] [pointer.md](./cpp/pointer.md) :hot_pepper: :hot_pepper: :hot_pepper:
 
 ### Object-oriented
 
