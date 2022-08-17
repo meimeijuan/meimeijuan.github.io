@@ -6,11 +6,11 @@ This is a repo to record my learning process. :smirk:
 
 ## c++ programming
 
-### basic
+### Basic
 
 - [X] [pointer.md](./pointer.md) :hot_pepper: :hot_pepper: :hot_pepper:
 
-### object-oriented
+### Object-oriented
 
 - [ ] TODO
 - [ ] TODO
