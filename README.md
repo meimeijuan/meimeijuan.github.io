@@ -4,19 +4,19 @@ You can use the [editor on GitHub](https://github.com/meimeijuan/meimeijuan.gith
 
 This is a repo to record my learning process. :smirk:
 
-### c++ programming
+## c++ programming
 
-#### Basic
+### Basic
 
 - [X] [pointer.md](./cpp/pointer.md) :hot_pepper: :hot_pepper: :hot_pepper:
 
-#### Object-oriented
+### Object-oriented
 
 - [ ] TODO
 - [ ] TODO
 - [ ] TODO
 
-#### template
+### template
 
 - [ ] TODO
 - [ ] TODO
