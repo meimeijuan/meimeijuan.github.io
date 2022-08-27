@@ -1,14 +1,21 @@
-# problem 
+## problem 
 
-理解难 修改难 查错难 重用难
+We already have learned the process based programming, why we introduce in OOP?
+The old fashion{struct program) has the following problem:
 
-# object oriented program
+    1. difficult to understanding
+    2. hard to modify on the exist program
+    3. hard to handle or look into error
+    4. hard to reuse
 
-absract + wrap 
-class
-数据结构 + 函数
+## object oriented programming
 
-class classname
+Class is absract + wrap from the real world things. 
+
+Class (data + function) the data type define which function can be act on it.
+
+```cpp
+class Rectangle
 {
     public:
     int w, h;
@@ -17,35 +24,36 @@ class classname
         w = w_;
         h = h_;
     }
-    int Area()
+    int Area()         // 1st define method of the member function in class
     {
         return w*h;
     }
     int Perimeter()
     {
-        return 2(w +h);
+        return 2*(w + h);
     }
-};
+};             // define a Rectangle class
 
-classname r;  //r是一个对象，即类的实例
+Rectangle r;  // r is an object, it is an instance of class Rectangle
 
-## 访问方式1
+// 1st access method to the member variables
+// instance
 r.w = 5;
 r.Init(3, 4);
 
-## 访问方式2
-classname *p1 = r;
+// 2nd access method
+// instance pointer
+Rectangle *p1 = r;
 p1->w = 5;
 
-## 访问方式3 reference 
-classname & rr = r;
+// 3rd access method
+//instance reference
+Rectangle & rr = r;
 rr.w = 5;
 
-## 成员函数方式2
-
-int classname::Aera()
+// 2nd define method of the member function
+int Rectangle::Aera()
 {
     return w*h;
 }
-
-instance/instance pointer/instance reference
+```
