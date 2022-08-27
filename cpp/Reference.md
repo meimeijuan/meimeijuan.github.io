@@ -1,13 +1,17 @@
-# define
-  类型名 & 引用名 = 某变量名;
-  
+# Reference
+
+## define
+  Type & nickname = variable name;
+```cpp  
   int n = 4;
-  int &r = n; 初始化变量n
+  int &r = n; Initialize n
+```
 
+## the refence is assigned to the first one
 
-## 从一而终
+## exchange value 😊
 
-## 值交换😊
+```cpp
     void swap(int a, int b)
     {
       int tmp;
@@ -17,9 +21,9 @@
     }
     
     int n1,n2;
-    swap(n1, n2);//值没有实现交换
+    swap(n1, n2);  // n1 and n2 keep original value
     
-    void swap(int* a, int* b)
+    void swap(int* a, int* b)  // solution with C using pointer
     {
       int tmp;
       tmp = *a;
@@ -29,18 +33,20 @@
     int n1, n2;
     swap(&n1, &n2);
     
-       void swap(int &a, int &b)
+    void swap(int &a, int &b)  // solution with C++
     {
       int tmp;
       tmp = a;
       a = b;
       b = tmp;
     }
-    
     int n1,n2;
-    swap(n1, n2);//值实现交换 
- 
- # Reference as the return of a function
+    swap(n1, n2);  // n1 and n2 exchanged value 
+```
+
+ ## Reference as the return of a function
+
+ ```cpp
  int n = 4;
  int & SetValue() {return n;}
  int main()
@@ -49,8 +55,11 @@
     cout<<n;
     return 0;
  }
- 
- # 常引用
+ ```
+
+ ## const reference
+
+ ```cpp
  int n;
  const int & r = n;
- 
+```
