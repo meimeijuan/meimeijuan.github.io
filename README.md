@@ -22,6 +22,7 @@ This is a repo to record my learning process. :smirk:
     - [example source code in book](https://www.informit.com/store/c-plus-plus-primer-9780321714114)
     - [solutions of exercises in book](https://github.com/jaege/Cpp-Primer-5th-Exercises)
 - `C++ Cookbook: Solutions and Examples for C++ Programmers`
+
 ### Basic
 
 - [X] References
@@ -30,7 +31,7 @@ This is a repo to record my learning process. :smirk:
 
 ### Object-oriented
 
-- [ ] TODO
+- [ ] [copy constructor](./cpp/copy_constructor.md)
 - [ ] TODO
 - [ ] TODO
 
