@@ -25,14 +25,14 @@ This is a repo to record my learning process. :smirk:
 
 ### Basic
 
-- [X] References
+- [X] [const](./cpp/const.md)
 - [X] `const` Qualifier
 - [X] [pointer.md](./cpp/pointer.md) :hot_pepper: :hot_pepper: :hot_pepper:
 
 ### Object-oriented
 
-- [ ] [copy constructor](./cpp/copy_constructor.md)
-- [ ] [constructor](./cpp/consructor.md)
+- [X] [copy constructor](./cpp/copy_constructor.md)
+- [X] [constructor](./cpp/consructor.md)
 - [ ] TODO
 
 ### Template
