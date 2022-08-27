@@ -32,7 +32,7 @@ This is a repo to record my learning process. :smirk:
 ### Object-oriented
 
 - [ ] [copy constructor](./cpp/copy_constructor.md)
-- [ ] TODO
+- [ ] [constructor](./cpp/consructor.md)
 - [ ] TODO
 
 ### Template
