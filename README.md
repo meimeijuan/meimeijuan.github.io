@@ -31,8 +31,9 @@ This is a repo to record my learning process. :smirk:
 
 ### Object-oriented
 
+- [X] [class](./cpp/class.md)
+- [ ] [constructor](./cpp/consructor.md) 
 - [X] [copy constructor](./cpp/copy_constructor.md)
-- [X] [constructor](./cpp/consructor.md)
 - [ ] TODO
 
 ### Template
