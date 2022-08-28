@@ -33,7 +33,7 @@ This is a repo to record my learning process. 😉
 ### Object-oriented
 
 - [X] [class](./cpp/class.md)
-- [X] [constructor](./cpp/consructor.md) 
+- [X] [constructor](./cpp/constructor.md) 
 - [X] [copy constructor](./cpp/copy_constructor.md)
 - [ ] TODO
 
