@@ -1,47 +1,75 @@
 # Reference
 
 ## define
-  Type & nickname = variable name;
+
+Type & nickname = variable name;
+  
 ```cpp  
   int n = 4;
-  int &r = n; Initialize n
+  int &r = n; // Initialize n
 ```
 
-## the refence is assigned to the first one
+### Note
+
+the refence is assigned to the first one
 
 ## exchange value 😊
 
 ```cpp
-    void swap(int a, int b)
-    {
-      int tmp;
-      tmp = a;
-      a = b;
-      b = tmp;
-    }
-    
-    int n1,n2;
+void swap(int n1, int n2)
+{
+  int tmp;
+  tmp = n1;
+  n1 = n2;
+  n2 = tmp;
+}
+
+int main() {
+    int n1 = 2, n2 = 0;
     swap(n1, n2);  // n1 and n2 keep original value
+  return 0;
+}
+```
+
+```cpp
+#include <iostream>
+using namespace std;
+
+void swap(int* n1, int* n2)  // solution with C using pointer
+{
+  int tmp;
+  tmp = *n1;
+  *n1 = *n2;
+  *n2 = tmp;
+}
     
-    void swap(int* a, int* b)  // solution with C using pointer
-    {
-      int tmp;
-      tmp = *a;
-      *a = *b;
-      *b = tmp;
-    }
-    int n1, n2;
-    swap(&n1, &n2);
+int main() 
+{
+    int n1 = 2;
+    int n2 = 0;
+    swap(&n1, &n2);  // n1 and n2 exchanged value
+    cout << "n1 address is " << &n1 << endl;
+    cout << sizeof(&n1) << endl;
+    return 0;
+}
+```
+
+```cpp
+void swap(int &n1, int &n2)  // solution with C++
+{
+  int tmp;
+  tmp = n1;
+  n1 = n2;
+  n2 = tmp;
+}
     
-    void swap(int &a, int &b)  // solution with C++
-    {
-      int tmp;
-      tmp = a;
-      a = b;
-      b = tmp;
-    }
-    int n1,n2;
-    swap(n1, n2);  // n1 and n2 exchanged value 
+int main() 
+{
+    int n1 = 2;
+    int n2 = 0;
+    swap(n1, n2);  // n1 and n2 exchanged value
+  return 0;
+}
 ```
 
  ## Reference as the return of a function
