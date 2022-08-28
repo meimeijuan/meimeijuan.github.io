@@ -69,11 +69,12 @@ int main()
 int main() 
 {
     const double pi = 3.14;
-    const double *const pip = &pi;
+    const double *const pip = &pi;  // the 1st const is Low-levle const, the 2nd one is Top-level const.
     *pip = 2.72; // error: assignment of read-only location '*(const double*)pip'
-
+                 // the low-level const means the content of (the pointer pip pointed to) can't be changed.
     double p1;
     pip = &p1;  // error: assignment of read-only variable 'pip'
+                // the top-level const means the pointet pip itself is a const.
     return 0;
 }
 ```
