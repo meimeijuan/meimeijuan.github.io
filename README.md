@@ -28,6 +28,9 @@ This is a repo to record my learning process. 😉
 - [X] [const](./cpp/const.md)
 - [X] [reference &](./cpp/Reference.md)
 - [X] [new & delete](./cpp/new_delete.md)
+- [X] [inline function](./cpp/inlineFunction.md)
+- [X] [overloaded function](./cpp/overloadedFunction.md)
+- [X] [default arguments](./cpp/defaultArguments.md)
 - [X] [pointer.md](./cpp/pointer.md) :hot_pepper: :hot_pepper: :hot_pepper:
 
 ### Object-oriented
