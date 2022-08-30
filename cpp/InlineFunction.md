@@ -1,20 +1,32 @@
-## Inline function
+# inline function
 
-1、inline + function
-2、function define is in the class
+## the effect of the inline function
 
-ex:
-void B::func1() {}
+cut function call time cost by insert function definition into the call place.
 
+But increase the size of the target file. {file.exe : 76484Byte -> 77781Byte}
 
-## function reload
-### parameter table is different but the name is the same
-### function parameter keep default need to Ambiguity 😃
-void valueX(int val = 0) {x = val;}
-int valueX() (return x;}
+## How to define a inline function
 
-A.valueX(); //build error 
+```cpp
+#include <iostream>
+using namespace std;
 
-correct ex:
-void valueX(int val) {x = val;}
-int valueX() (return x;}
+inline int Max(int n1, int n2)
+{
+    return n1>n2 ? n1 : n2;
+}
+
+int main() 
+{
+    cout << Max(3, 4) << endl;
+    cout << Max(-3, -4) << endl;
+    return 0;
+}
+```
+
+### Notes
+
+Complier may ignore the inline request.
+
+TODO: check inline is active or not by disassemble file.
