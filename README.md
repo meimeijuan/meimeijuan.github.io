@@ -32,6 +32,7 @@ This is a repo to record my learning process. 😉
 - [X] [overloaded function](./cpp/overloadedFunction.md)
 - [X] [default arguments](./cpp/defaultArguments.md)
 - [X] [pointer.md](./cpp/pointer.md) :hot_pepper: :hot_pepper: :hot_pepper:
+- [X] [pointer to function](./cpp/pointerToFunction.md)
 
 ### Object-oriented
 
