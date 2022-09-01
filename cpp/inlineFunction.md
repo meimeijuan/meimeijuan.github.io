@@ -8,6 +8,10 @@ But increase the size of the target file. {file.exe : 76484Byte -> 77781Byte}
 
 ## How to define a inline function
 
+### 1st method:
+
+using keyword `inline`
+
 ```cpp
 #include <iostream>
 using namespace std;
@@ -23,6 +27,26 @@ int main()
     cout << Max(-3, -4) << endl;
     return 0;
 }
+```
+
+### 2nd method:
+
+Functions defined in the class are implicitly `inline`
+
+```cpp
+class Complex
+{
+    private:
+    int real, imag;
+    public:
+    setValue(int real_, int imag_)  // implicitly inline
+    {
+        real = real_;
+        imag = imag_;
+    }
+    Complex(const Complex &c);
+    Complex(Complex &c);
+};
 ```
 
 ### Notes
