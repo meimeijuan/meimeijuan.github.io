@@ -39,7 +39,7 @@ class Complex
     private:
     int real, imag;
     public:
-    setValue(int real_, int imag_)  // implicitly inline
+    void setValue(int real_, int imag_)  // implicitly inline
     {
         real = real_;
         imag = imag_;
@@ -54,3 +54,5 @@ class Complex
 Complier may ignore the inline request.
 
 TODO: check inline is active or not by disassemble file.
+
+https://godbolt.org/
