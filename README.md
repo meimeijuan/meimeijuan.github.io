@@ -33,6 +33,7 @@ This is a repo to record my learning process. 😉
 - [X] [default arguments](./cpp/defaultArguments.md)
 - [X] [pointer.md](./cpp/pointer.md) :hot_pepper: :hot_pepper: :hot_pepper:
 - [X] [pointer to function](./cpp/pointerToFunction.md)
+- [ ] [bit operator]
 
 ### Object-oriented
 
