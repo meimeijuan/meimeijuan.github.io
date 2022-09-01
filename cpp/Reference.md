@@ -11,7 +11,23 @@ Type & nickname = variable name;
 
 ### Note
 
-the refence is assigned to the first one
+the refence **must be initialized when define it**
+and can only be the nickname of the initialized variable.
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int n1 = 4, n2 = 5;
+    int &r = n1;  // r is initialized with n1 when define it
+    r = n2; // n1 = r <== n2, r can only be the nickname of n1.
+    cout << n1 << endl;
+    cout << n2 << endl;
+    cout << r << endl; // output: n1 = n2 = r = 5
+}
+```
 
 ## exchange value 😊
 
