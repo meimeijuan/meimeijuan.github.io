@@ -4,6 +4,28 @@
 
 构造函数执行必要的初始化工作，不用再去写初始化函数，并且避免忘记调用初始化函数😉
 
+## Constructor Initializer list  c++ 11 introduce in the feature
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Complex
+{
+    public:
+    int real, imag;
+    Complex(int real_, int imag_):real(real_),imag(imag_){}  // constructor best practise
+};
+
+int main()
+{
+    Complex c(1,-1);
+    cout<<c.real<<endl;
+    cout<<c.imag<<endl;
+    return 0;
+}
+```
+
 ## How to write a constructor for a class
 
 ```cpp
