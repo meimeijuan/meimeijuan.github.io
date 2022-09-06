@@ -8,22 +8,24 @@ This is a repo to record my learning process. 😉
 
 ## c++ programming
 
-**Development environment**
+**Development Environment**
 - platform: `win10-64 bits`
 - IDE: `visual  studio 2022 (Community)`
 - compiler: TODO
 
-**Useful link**
+**Useful Link**
 - [cplusplus.com](https://cplusplus.com/)
 - [visualizing code](https://pythontutor.com/)
+- [compare various compilers](https://godbolt.org/)
 
-**reference book**
+
+**Reference Book**
 - [c++ primer](https://zhjwpku.com/assets/pdf/books/C++.Primer.5th.Edition_2013.pdf)
     - [example source code in book](https://www.informit.com/store/c-plus-plus-primer-9780321714114)
     - [solutions of exercises in book](https://github.com/jaege/Cpp-Primer-5th-Exercises)
 - `C++ Cookbook: Solutions and Examples for C++ Programmers`
 
-### Basic
+### Basic (20%)
 
 - [X] [const](./cpp/const.md)
 - [X] [reference &](./cpp/Reference.md)
@@ -31,20 +33,20 @@ This is a repo to record my learning process. 😉
 - [X] [inline function](./cpp/inlineFunction.md)
 - [X] [overloaded function](./cpp/overloadedFunction.md)
 - [X] [default arguments](./cpp/defaultArguments.md)
-- [X] [pointer.md](./cpp/pointer.md) :hot_pepper: :hot_pepper: :hot_pepper:
+- [X] [pointer.md](./cpp/pointer.md) :hot_pepper:
 - [X] [pointer to function](./cpp/pointerToFunction.md)
 - [ ] [bit operator]
 
-### Object-oriented
+### Object-oriented (50%)
 
 - [X] [class](./cpp/class.md)
 - [X] [constructor](./cpp/constructor.md) 
 - [X] [copy constructor](./cpp/copy_constructor.md)
 - [ ] TODO
 
-### Template
+### Template (30%)
 
-- [ ] TODO
-- [ ] TODO
-- [ ] TODO
+- [ ] TODO: <string> :star:
+- [ ] TODO: <vector>
+- [ ] TODO: <set>
  
