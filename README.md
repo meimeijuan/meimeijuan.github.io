@@ -33,8 +33,8 @@ This is a repo to record my learning process. 😉
 - [X] [default arguments](./cpp/defaultArguments.md)
 - [X] [reference &](./cpp/Reference.md)
 - [X] [pointer.md](./cpp/pointer.md) :hot_pepper:
-    - [ ] review: pass by value VS pass by reference
-    - [ ] review: return by value VS return by reference
+    - [ ] **review**: pass by value VS pass by reference
+    - [ ] **review**: return by value VS return by reference
 - [X] [pointer to function](./cpp/pointerToFunction.md)
 - [ ] [bit operator](./cpp/bit.md)
 
@@ -58,11 +58,11 @@ This is a repo to record my learning process. 😉
 - [ ] destructor
 - [X] [copy constructor](./cpp/copy_constructor.md)
 - [ ] copy assignment operator
-- [ ] review: rule of three
+- [ ] **review**: rule of three
 - [ ] this
 - [ ] namespace
-- [ ] review: constructor review
-- [ ] review: special member function  https://cplusplus.com/doc/tutorial/classes2/
+- [ ] **review**: constructor review
+- [ ] **review**: special member function  https://cplusplus.com/doc/tutorial/classes2/
 
 
 #### Oject Oriented: design the relationship between classes
@@ -70,7 +70,7 @@ This is a repo to record my learning process. 😉
 - [ ] 3 basic relationships: Composition, Delegation and Inheritance
 - [ ] **degisn pattern** todo:
 - [ ] Polymorphism :star: :hot_pepper:
-- [ ] review: lifetime of object
+- [ ] **review**: lifetime of object
 
 
 ### Generic Programming (30%)
