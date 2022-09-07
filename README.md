@@ -44,7 +44,7 @@ This is a repo to record my learning process. 😉
 
 - [X] [class](./cpp/class.md)
 - [X] [constructor and initialization list](./cpp/constructor.md) 
-- [ ]  design pattern : singleton (0.5h)
+- [ ]  **design pattern** : singleton (0.5h)
 - [ ]  const member functions
 - [ ]  static member
 - [ ]  friend
@@ -56,18 +56,19 @@ This is a repo to record my learning process. 😉
 - [ ] destructor
 - [X] [copy constructor](./cpp/copy_constructor.md)
 - [ ] copy assignment operator
-- [ ] rule of three
+- [ ] review: rule of three
 - [ ] this
-- [ ] constructor review
-- [ ] special member function review: https://cplusplus.com/doc/tutorial/classes2/
+- [ ] namespace
+- [ ] review: constructor review
+- [ ] review: special member function  https://cplusplus.com/doc/tutorial/classes2/
 
 
 #### Oject Oriented: design the relationship between classes
 
 - [ ] 3 basic relationships: Composition, Delegation and Inheritance
-- [ ] namespace
-- [ ] Polymorphism :star:
-- [ ] lifetime of object
+- [ ] **degisn pattern** todo:
+- [ ] Polymorphism :star: :hot_pepper:
+- [ ] review: lifetime of object
 
 
 ### Generic Programming (30%)
