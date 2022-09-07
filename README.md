@@ -47,7 +47,7 @@ This is a repo to record my learning process. 😉
 - [X] [class](./cpp/class.md)
 - [X] [constructor and initialization list](./cpp/constructor.md) 
 - [ ]  **design pattern** : singleton (0.5h)
-- [ ]  const member functions
+- [ ]  [const member functions](./cpp/constMemberFunction.md)
 - [ ]  static member
 - [ ]  friend
 - [ ]  operator overloading
