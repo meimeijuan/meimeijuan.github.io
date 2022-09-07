@@ -27,14 +27,16 @@ This is a repo to record my learning process. 😉
 ### Basic (20%)
 
 - [X] [const](./cpp/const.md)
-- [X] [reference &](./cpp/Reference.md)
 - [X] [new & delete](./cpp/new_delete.md)
 - [X] [inline function](./cpp/inlineFunction.md)
 - [X] [overloaded function](./cpp/overloadedFunction.md)
 - [X] [default arguments](./cpp/defaultArguments.md)
+- [X] [reference &](./cpp/Reference.md)
 - [X] [pointer.md](./cpp/pointer.md) :hot_pepper:
+    - [ ] review: pass by value VS pass by reference
+    - [ ] review: return by value VS return by reference
 - [X] [pointer to function](./cpp/pointerToFunction.md)
-- [ ] [bit operator]
+- [ ] [bit operator](./cpp/bit.md)
 
 ### Object Oriented Programming (50%)
 
