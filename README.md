@@ -44,27 +44,42 @@ This is a repo to record my learning process. 😉
 
 - [X] [class](./cpp/class.md)
 - [X] [constructor and initialization list](./cpp/constructor.md) 
-- [ ]  design pattern : singleton
-- [ ]  const
+- [ ]  design pattern : singleton (0.5h)
+- [ ]  const member functions
+- [ ]  static member
 - [ ]  friend
 - [ ]  operator overloading
 - [ ]  temp object
 
 ##### class with pointer member
 
+- [ ] destructor
 - [X] [copy constructor](./cpp/copy_constructor.md)
+- [ ] copy assignment operator
+- [ ] rule of three
+- [ ] this
 - [ ] constructor review
-- [ ] special member method review
+- [ ] special member function review: https://cplusplus.com/doc/tutorial/classes2/
+
 
 #### Oject Oriented: design the relationship between classes
+
+- [ ] 3 basic relationships: Composition, Delegation and Inheritance
+- [ ] namespace
+- [ ] Polymorphism :star:
+- [ ] lifetime of object
+
 
 ### Generic Programming (30%)
 
 #### Template
 
+- [ ] Class templates
+- [ ] Function templates
+
 #### STL (standard template library)
 
-- [ ] TODO: <string> :star:
-- [ ] TODO: <vector>
-- [ ] TODO: <set>
+- [ ] TODO: string :star:
+- [ ] TODO: vector
+- [ ] TODO: set
  
