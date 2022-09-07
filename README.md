@@ -23,7 +23,6 @@ This is a repo to record my learning process. 😉
 - [c++ primer](https://zhjwpku.com/assets/pdf/books/C++.Primer.5th.Edition_2013.pdf)
     - [example source code in book](https://www.informit.com/store/c-plus-plus-primer-9780321714114)
     - [solutions of exercises in book](https://github.com/jaege/Cpp-Primer-5th-Exercises)
-- `C++ Cookbook: Solutions and Examples for C++ Programmers`
 
 ### Basic (20%)
 
@@ -37,14 +36,33 @@ This is a repo to record my learning process. 😉
 - [X] [pointer to function](./cpp/pointerToFunction.md)
 - [ ] [bit operator]
 
-### Object-oriented (50%)
+### Object Oriented Programming (50%)
+
+#### Object Based: design one class only
+
+##### class without pointer member
 
 - [X] [class](./cpp/class.md)
-- [X] [constructor](./cpp/constructor.md) 
-- [X] [copy constructor](./cpp/copy_constructor.md)
-- [ ] TODO
+- [X] [constructor and initialization list](./cpp/constructor.md) 
+- [ ]  design pattern : singleton
+- [ ]  const
+- [ ]  friend
+- [ ]  operator overloading
+- [ ]  temp object
 
-### Template (30%)
+##### class with pointer member
+
+- [X] [copy constructor](./cpp/copy_constructor.md)
+- [ ] constructor review
+- [ ] special member method review
+
+#### Oject Oriented: design the relationship between classes
+
+### Generic Programming (30%)
+
+#### Template
+
+#### STL (standard template library)
 
 - [ ] TODO: <string> :star:
 - [ ] TODO: <vector>
