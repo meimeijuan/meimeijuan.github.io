@@ -33,8 +33,8 @@ This is a repo to record my learning process. 😉
 - [X] [default arguments](./cpp/defaultArguments.md)
 - [X] [reference &](./cpp/Reference.md)
 - [X] [pointer.md](./cpp/pointer.md) :hot_pepper:
-    - [ ] **review**: pass by value VS pass by reference
-    - [ ] **review**: return by value VS return by reference
+    - [ ] **review**: [pass by value VS pass by reference](./cpp/passParameter.md)
+    - [ ] **review**: [return by value VS return by reference](./cpp/returnParameter.md)
 - [X] [pointer to function](./cpp/pointerToFunction.md)
 - [ ] [bit operator](./cpp/bit.md)
 
