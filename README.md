@@ -33,8 +33,8 @@ This is a repo to record my learning process. 😉
 - [X] [default arguments](./cpp/defaultArguments.md)
 - [X] [reference &](./cpp/Reference.md)
 - [X] [pointer.md](./cpp/pointer.md) :hot_pepper:
-    - [ ] **review**: [pass by value VS pass by reference](./cpp/passParameter.md)
-    - [ ] **review**: [return by value VS return by reference](./cpp/returnParameter.md)
+    - [X] **review**: [pass by value VS pass by reference](./cpp/passParameter.md)
+    - [X] **review**: [return by value VS return by reference](./cpp/returnType.md)
 - [X] [pointer to function](./cpp/pointerToFunction.md)
 - [ ] [bit operator](./cpp/bit.md)
 
@@ -48,10 +48,10 @@ This is a repo to record my learning process. 😉
 - [X] [constructor and initialization list](./cpp/constructor.md) 
 - [ ]  **design pattern** : [singleton](./cpp/singleton.md) (0.5h)
 - [X] [const member functions](./cpp/constMemberFunction.md) (0.5h)
-- [ ]  static member
-- [ ]  friend
-- [ ]  operator overloading
-- [ ]  temp object
+- [ ]  [static member](./cpp/staticMember.md)
+- [ ]  [friend](./cpp/friend.md)
+- [ ]  [operator overloading](./cpp/operatorOverloading.md)
+- [ ]  [temp object](./cpp/tempOjbect.md)
 
 ##### class with pointer member
 
