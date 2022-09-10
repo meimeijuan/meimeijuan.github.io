@@ -46,22 +46,22 @@ This is a repo to record my learning process. 😉
 
 - [X] [class](./cpp/class.md)
 - [X] [constructor and initialization list](./cpp/constructor.md) 
-- [ ]  **design pattern** : [singleton](./cpp/singleton.md) (0.5h)
+- [X]  **design pattern** : [singleton](./cpp/singleton.md) (0.5h)
 - [X] [const member functions](./cpp/constMemberFunction.md) (0.5h)
-- [ ]  [static member](./cpp/staticMember.md)
-- [ ]  [friend](./cpp/friend.md)
-- [ ]  [operator overloading](./cpp/operatorOverloading.md)
-- [ ]  [temp object](./cpp/tempOjbect.md)
+- [ ]  [static member](./cpp/staticMember.md) (0.5h)
+- [ ]  [friend](./cpp/friend.md) (1h)
+- [ ]  [operator overloading](./cpp/operatorOverloading.md) (2h)
+- [ ]  [temp object](./cpp/tempOjbect.md) (1h)
 
 ##### class with pointer member
 
-- [ ] destructor
+- [ ] destructor[destructor.md] (1h)
 - [X] [copy constructor](./cpp/copy_constructor.md)
-- [ ] copy assignment operator
-- [ ] **review**: rule of three
-- [ ] this
-- [ ] namespace
-- [ ] **review**: constructor review
+- [ ] [copy assignment operator](./cpp/copyAssignmentOperator.md) (1.5h)
+- [ ] **review**: [rule of three](ruleOfThree.md) (2h)
+- [ ] [this](./cpp/this.md) (2h)
+- [ ] [namespace](./cpp/namespace.md) (1h)
+- [ ] **review**: constructor review (2h)
 - [ ] **review**: special member function  https://cplusplus.com/doc/tutorial/classes2/
 
 
