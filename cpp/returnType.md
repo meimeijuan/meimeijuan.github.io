@@ -14,9 +14,22 @@ int sum(int a, int b)
 ## return reference
 
 ```cpp
-const string& shorterString(const string &s1, const string &s2)
+#include <iostream>
+#include <string>
+using namespace std;
+
+const string& shorterString(const string &s1, const string &s2) // return reference
 {
     return s1.size() <= s2.size() ? s1 : s2;
+}
+
+int main()
+{
+    string s1 = "in this";
+    string s2 = "in this room 2";
+    const string s = shorterString(s1, s2); // ok
+    cout<<s<<endl;  // output s1
+    return 0;
 }
 ```
 
