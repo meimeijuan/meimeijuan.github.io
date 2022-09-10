@@ -49,7 +49,7 @@ This is a repo to record my learning process. 😉
 - [X]  **design pattern** : [singleton](./cpp/singleton.md) (0.5h)
 - [X] [const member functions](./cpp/constMemberFunction.md) (0.5h)
 - [ ]  [static member](./cpp/staticMember.md) (0.5h)
-- [ ]  [friend](./cpp/friend.md) (1h)
+- [X]  [friend](./cpp/friend.md) (1h)
 - [ ]  [operator overloading](./cpp/operatorOverloading.md) (2h)
 - [ ]  [temp object](./cpp/tempOjbect.md) (1h)
 
