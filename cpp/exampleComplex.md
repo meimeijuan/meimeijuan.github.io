@@ -23,7 +23,7 @@ public:
   complex& operator -= (const complex&);
   complex& operator *= (const complex&);
   complex& operator /= (const complex&);
-  double real () const { return re; }
+  double real () const { return re; }  // const qualifier the function body can't modify the class data member.
   double imag () const { return im; }
 private:
   double re, im;
