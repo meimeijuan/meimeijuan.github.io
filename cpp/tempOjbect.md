@@ -67,11 +67,6 @@ public:
     {cout << "constructor is called"<< endl;}
     int real() const { return re; }
     int imag() const { return im; }
-    /* */
-    int func(const Complex &param)
-    {
-        return param.re + param.im;
-    }
 
 private:
     int re, im;
@@ -119,5 +114,51 @@ int main()
 constructor is called
 constructor is called
 constructor is called
+```
+
+## non-const lvalue reference to type 'Complex' cannot bind to a temporary of type 'Complex'
+
+```cpp
+#include <iostream>
+using namespace std;
+
+class Complex
+{
+public:
+    Complex(int re_ = 0, int im_ = 0) : re(re_), im(im_)
+    {
+        cout << "constructor is called" << endl;
+    }
+    int real() const { return re; }
+    int imag() const { return im; }
+
+private:
+    int re, im;
+};
+
+/* the following function are non-member function of class Complex */
+
+/* complex + complex */
+inline Complex &operator+(Complex x, Complex &y)
+{
+    // Complex(); generate a temp object
+    /* error: non-const lvalue reference to type 'Complex' cannot bind to 
+    a temporary of type 'Complex' */
+    return Complex(x.real() + y.real(), x.imag() + y.imag());
+}
+
+ostream &operator<<(ostream &os, const Complex &x)
+{
+    return os << '(' << x.real() << ',' << x.imag() << ')';
+}
+
+int main()
+{
+    Complex c1(2, 1);
+    Complex c2;
+    c2 = c2 + c1;
+
+    return 0;
+}
 ```
 
