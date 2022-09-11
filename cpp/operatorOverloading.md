@@ -108,7 +108,6 @@ c3 += c2 += c1;  // there must be a return type with Complex&
 ## non-member function operator overloading
 
 ```cpp
-/* complex + complex */
 #include <iostream>
 using namespace std;
 
@@ -129,6 +128,7 @@ private:
 };
 
 /* the following three function are non-member function of class Complex */
+
 /* complex + complex */
 inline Complex operator + (const Complex x, const Complex& y)
 {
