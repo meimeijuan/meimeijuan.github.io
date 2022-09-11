@@ -4,8 +4,7 @@
 
 ### shallow copy
 
-![image](https://user-images.githubusercontent.com/111368834/189528976-824ca2c1-d0b6-4996-bf98-d39966af2613.png)
-
+![image](https://user-images.githubusercontent.com/111368834/189531796-600affd5-cc0e-43be-9154-5c23783190f5.png)
 
 ### deep copy
 
