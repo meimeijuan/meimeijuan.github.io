@@ -74,7 +74,7 @@ int main()
                  // the low-level const means the content of (the pointer pip pointed to) can't be changed.
     double p1;
     pip = &p1;  // error: assignment of read-only variable 'pip'
-                // the top-level const means the pointet pip itself is a const.
+                // the top-level const means the pointer pip itself is a const.
     return 0;
 }
 ```
