@@ -55,11 +55,11 @@ This is a repo to record my learning process. 😉
 
 ##### class with pointer member
 
-- [ ] [destructor](./cpp/destructor.md) (1h)
+- [X] [destructor](./cpp/destructor.md) (1h)
 - [X] [copy constructor](./cpp/copy_constructor.md)
-- [ ] [copy assignment operator](./cpp/copyAssignmentOperator.md) (1.5h)
-- [ ] **review**: [rule of three](ruleOfThree.md) (2h)
-- [ ]  [static member](./cpp/staticMember.md) (0.5h)
+- [X] [copy assignment operator](./cpp/copyAssignmentOperator.md) (1.5h)
+- [X] **review**: [rule of three](ruleOfThree.md) (2h)
+- [ ] [static member](./cpp/staticMember.md) (0.5h)
 - [ ] [this](./cpp/this.md) (2h)
 - [ ] [namespace](./cpp/namespace.md) (1h)
 - [ ] **review**: constructor review (2h)
