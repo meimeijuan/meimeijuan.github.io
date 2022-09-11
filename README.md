@@ -55,7 +55,7 @@ This is a repo to record my learning process. 😉
 
 ##### class with pointer member
 
-- [ ] destructor[destructor.md] (1h)
+- [ ] [destructor](./cpp/destructor.md) (1h)
 - [X] [copy constructor](./cpp/copy_constructor.md)
 - [ ] [copy assignment operator](./cpp/copyAssignmentOperator.md) (1.5h)
 - [ ] **review**: [rule of three](ruleOfThree.md) (2h)
