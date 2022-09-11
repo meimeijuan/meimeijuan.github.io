@@ -1,18 +1,77 @@
-# Copy Constructor in class
+# Copy Constructor (within class with pointer members)
 
 ## Problem
+
+### shallow copy
+
+![image](https://user-images.githubusercontent.com/111368834/189528976-824ca2c1-d0b6-4996-bf98-d39966af2613.png)
+
+
+### deep copy
+
+```cpp
+#include <cstring>
+#include <iostream>
+
+using namespace std;
+
+class String
+{
+    public:
+    String(const char* cstr);
+    String(const String& str);
+    String& operator= (const String& str);
+    ~String();
+    char* get_c_str() const {return m_data;}
+    
+    private:
+    char* m_data;
+};
+
+inline String::String(const char* cstr = 0)
+{
+    if(cstr)
+    {
+        m_data = new char[strlen(cstr)+1];
+        strcpy(m_data, cstr);
+    }
+    else
+    {
+        m_data = new char[1];
+        *m_data = '\0';
+    }
+}
+
+inline String::~String()
+{
+    delete[] m_data;
+}
+
+inline String::String(const String& str)
+{
+    m_data = new char [strlen(str.m_data) + 1];
+    strcpy(m_data, str.m_data);
+    cout << " copy consructor is called " << endl;
+}
+
+int main()
+{
+    String s1("hello");
+    String s2(s1);  // equal String s2 = s1;
+                    // copy constructor called
+}
+```
 
 ### Why we need a new type constructor? though we have learned constructor.
 
     There are some circumstances that need to create a new object fron an existing object.
 
-    1.
 ```cpp
 Complex c2(c1);  // Instance c2 with c1
 
 Complex c2 = c1; // is different from "=" operation
 ```
-    2.
+
 ```cpp
 void Func(Complex c1){}  // where object c1 is parameter
 
@@ -23,7 +82,7 @@ int main()
     return 0;
 }
 ```
-    3.
+
 ```cpp
 Complex Func()
 {
@@ -31,26 +90,6 @@ Complex Func()
     return c;  // return Complex xxx = c;
 }
 ```
-### How to add a copy constructor to a class?
-
-```cpp
-class Complex
-{
-    private:
-    int real, imag;
-    public:
-    setValue(int real_, int imag_)
-    {
-        real = real_;
-        imag = imag_;
-    }
-    Complex(const Complex &c); // declare a const type
-    Complex(Complex &c);  // declare a copy constructor
-};
-Complex::Complex(const Complex &c){}  // definition
-Complex::Complex(Complex &c){}  // define the copy constructor out the class
-```
-
 
 ### Note
 
