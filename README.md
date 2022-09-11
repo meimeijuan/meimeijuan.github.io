@@ -46,12 +46,12 @@ This is a repo to record my learning process. 😉
 
 - [X] [class](./cpp/class.md)
 - [X] [constructor and initialization list](./cpp/constructor.md) 
-- [X]  **design pattern** : [singleton](./cpp/singleton.md) (0.5h)
+- [X] **design pattern** : [singleton](./cpp/singleton.md) (0.5h)
 - [X] [const member functions](./cpp/constMemberFunction.md) (0.5h)
-- [ ]  [static member](./cpp/staticMember.md) (0.5h)
-- [X]  [friend](./cpp/friend.md) (1h)
-- [X]  [operator overloading](./cpp/operatorOverloading.md) (2h)
-- [X]  [temp object](./cpp/tempOjbect.md) (1h)
+- [X] [friend](./cpp/friend.md) (1h)
+- [X] [operator overloading](./cpp/operatorOverloading.md) (2h)
+- [X] [temp object](./cpp/tempOjbect.md) (1h)
+- [X] [summary: Complex](./cpp/exampleComplex.md)
 
 ##### class with pointer member
 
@@ -59,6 +59,7 @@ This is a repo to record my learning process. 😉
 - [X] [copy constructor](./cpp/copy_constructor.md)
 - [ ] [copy assignment operator](./cpp/copyAssignmentOperator.md) (1.5h)
 - [ ] **review**: [rule of three](ruleOfThree.md) (2h)
+- [ ]  [static member](./cpp/staticMember.md) (0.5h)
 - [ ] [this](./cpp/this.md) (2h)
 - [ ] [namespace](./cpp/namespace.md) (1h)
 - [ ] **review**: constructor review (2h)
