@@ -37,6 +37,7 @@ This is a repo to record my learning process. 😉
 - [X] **review**: [return by value VS return by reference](./cpp/returnType.md)
 - [X] [pointer to function](./cpp/pointerToFunction.md)
 - [ ] [bit operator](./cpp/bit.md)
+- [X] [bit operator](./cpp/compile_load_run.md) :star: :star:
 
 ### Object Oriented Programming (50%)
 
