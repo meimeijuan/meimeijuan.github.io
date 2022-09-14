@@ -6,11 +6,11 @@
 
 ### files relationship
 
-![](./filesRelationship1.png)
+![](./image/filesRelationship1.png)
 
 ### sections in executable file
 
-![](./executableSections.png)
+![](./image/executableSections.png)
 
 ## runtime 
 
@@ -18,19 +18,19 @@
 
 ### progress image
 
-![](./progress.png)
+![](./image/progress.png)
 
 ## load time
 
 load executable file to `memory`, setup progress.
 
-![](./loader.png)
+![](./image/loader.png)
 
 ## put it all together
 
 `compile time` ==> `load time` ==> `runtime`
 
-![](./together.png)
+![](./image/together.png)
 
 ## see also
 
