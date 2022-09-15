@@ -91,3 +91,11 @@ This is a repo to record my learning process. 😉
 - [ ] TODO: map (1h)
 - [ ] TODO: set (1h)
  
+### others
+
+- [ ] cast
+- [ ] auto
+- [ ] assert
+- [ ] Exception handle
+- [ ] move
+- [ ] lamda
