@@ -93,9 +93,9 @@ This is a repo to record my learning process. 😉
  
 ### others
 
-- [ ] cast
+- [ ] type cast https://cplusplus.com/doc/tutorial/typecasting/
 - [ ] auto
 - [ ] assert
-- [ ] Exception handle
+- [ ] Exception handle: try... throw.. catch...
 - [ ] move
 - [ ] lamda
