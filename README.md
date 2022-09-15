@@ -29,11 +29,11 @@ This is a repo to record my learning process. 😉
 - [X] [default arguments](./cpp/defaultArguments.md)
 - [X] [reference &](./cpp/Reference.md)
 - [X] [pointer.md](./cpp/pointer.md) :hot_pepper:
+    - [X] [pointer to function](./cpp/pointerToFunction.md)
 - [X] **review**: [pass by value VS pass by reference](./cpp/passParameter.md)
 - [X] **review**: [return by value VS return by reference](./cpp/returnType.md)
-- [X] [pointer to function](./cpp/pointerToFunction.md)
-- [X] [bit operator](./cpp/bit.md)
-- [X] [compile time VS runtime VS load time](./cpp/compile_load_run.md) :star: :star:
+- [X] [bit operator](./cpp/bit.md) (0.5h)
+- [X] [compile time VS runtime VS load time](./cpp/compile_load_run.md) (0.5h) :star:
 
 ### Object Oriented Programming (50%)
 
@@ -58,11 +58,12 @@ This is a repo to record my learning process. 😉
 - [X] **review**: [rule of three](./cpp/ruleOfThree.md) (2h)
 - [X] [name scope](./cpp/nameScope.md)
 - [X] [object lifetime](./cpp/objectLifetime.md)
-- [ ] [static](./cpp/static.md) (0.5h)
-- [ ] [this](./cpp/this.md) (2h)
+- [ ] [static](./cpp/static.md) (0.5h) (star)
+- [ ] [this](./cpp/this.md) (2h) :star:
 - [ ] [namespace](./cpp/namespace.md) (1h)
 - [ ] **review**: constructor review (2h)
 - [ ] **review**: special member function  https://cplusplus.com/doc/tutorial/classes2/
+- [ ] [summary: String](./cpp/exampleString.md)
 
 
 #### Oject Oriented: design the relationship between classes
