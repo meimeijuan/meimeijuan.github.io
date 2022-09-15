@@ -8,15 +8,11 @@ This is a repo to record my learning process. 😉
 
 ## c++ programming
 
-**Development Environment**
-- platform: `win10-64 bits`
-- IDE: `visual  studio 2022 (Community)`
-- compiler: TODO
-
 **Useful Link**
 - [cplusplus.com](https://cplusplus.com/)
 - [visualizing code](https://pythontutor.com/)
 - [compare various compilers](https://godbolt.org/)
+- [c++ insight](https://cppinsights.io/)
 
 
 **Reference Book**
@@ -33,10 +29,11 @@ This is a repo to record my learning process. 😉
 - [X] [default arguments](./cpp/defaultArguments.md)
 - [X] [reference &](./cpp/Reference.md)
 - [X] [pointer.md](./cpp/pointer.md) :hot_pepper:
+    - [X] [pointer to function](./cpp/pointerToFunction.md)
 - [X] **review**: [pass by value VS pass by reference](./cpp/passParameter.md)
 - [X] **review**: [return by value VS return by reference](./cpp/returnType.md)
-- [X] [pointer to function](./cpp/pointerToFunction.md)
-- [ ] [bit operator](./cpp/bit.md)
+- [X] [bit operator](./cpp/bit.md) (0.5h)
+- [X] [compile time VS runtime VS load time](./cpp/compile_load_run.md) (0.5h) :star:
 
 ### Object Oriented Programming (50%)
 
@@ -61,31 +58,44 @@ This is a repo to record my learning process. 😉
 - [X] **review**: [rule of three](./cpp/ruleOfThree.md) (2h)
 - [X] [name scope](./cpp/nameScope.md)
 - [X] [object lifetime](./cpp/objectLifetime.md)
-- [ ] [static](./cpp/static.md) (0.5h)
-- [ ] [this](./cpp/this.md) (2h)
+- [ ] [static](./cpp/static.md) (0.5h) (star)
+- [ ] [this](./cpp/this.md) (2h) :star:
 - [ ] [namespace](./cpp/namespace.md) (1h)
 - [ ] **review**: constructor review (2h)
 - [ ] **review**: special member function  https://cplusplus.com/doc/tutorial/classes2/
+- [ ] [summary: String](./cpp/exampleString.md)
 
 
 #### Oject Oriented: design the relationship between classes
 
-- [ ] 3 basic relationships: Composition, Delegation and Inheritance
-- [ ] **degisn pattern** todo:
+- [ ] composition
+- [ ] Delegation
+- [ ] Inheritance
+- [ ] **review**:3 basic relationships: Composition, Delegation and Inheritance
+- [ ] **degisn pattern** 
+- [ ] virtual member function :star:
 - [ ] Polymorphism :star: :hot_pepper:
-- [ ] **review**: lifetime of object
 
 
 ### Generic Programming (30%)
 
 #### Template
 
-- [ ] Class templates
-- [ ] Function templates
+- [ ] Class templates (1h)
+- [ ] Function templates (1h)
 
 #### STL (standard template library)
 
-- [ ] TODO: string :star:
-- [ ] TODO: vector
-- [ ] TODO: set
+- [ ] TODO: string (1h) :star:
+- [ ] TODO: vector (1h) :star:
+- [ ] TODO: map (1h)
+- [ ] TODO: set (1h)
  
+### others
+
+- [ ] type cast https://cplusplus.com/doc/tutorial/typecasting/
+- [ ] auto
+- [ ] assert
+- [ ] Exception handle: try... throw.. catch...
+- [ ] move
+- [ ] lamda
