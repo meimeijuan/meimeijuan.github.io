@@ -8,15 +8,11 @@ This is a repo to record my learning process. 😉
 
 ## c++ programming
 
-**Development Environment**
-- platform: `win10-64 bits`
-- IDE: `visual  studio 2022 (Community)`
-- compiler: TODO
-
 **Useful Link**
 - [cplusplus.com](https://cplusplus.com/)
 - [visualizing code](https://pythontutor.com/)
 - [compare various compilers](https://godbolt.org/)
+- [c++ insight](https://cppinsights.io/)
 
 
 **Reference Book**
@@ -71,22 +67,26 @@ This is a repo to record my learning process. 😉
 
 #### Oject Oriented: design the relationship between classes
 
-- [ ] 3 basic relationships: Composition, Delegation and Inheritance
-- [ ] **degisn pattern** todo:
+- [ ] composition
+- [ ] Delegation
+- [ ] Inheritance
+- [ ] **review**:3 basic relationships: Composition, Delegation and Inheritance
+- [ ] **degisn pattern** 
+- [ ] virtual member function :star:
 - [ ] Polymorphism :star: :hot_pepper:
-- [ ] **review**: lifetime of object
 
 
 ### Generic Programming (30%)
 
 #### Template
 
-- [ ] Class templates
-- [ ] Function templates
+- [ ] Class templates (1h)
+- [ ] Function templates (1h)
 
 #### STL (standard template library)
 
-- [ ] TODO: string :star:
-- [ ] TODO: vector
-- [ ] TODO: set
+- [ ] TODO: string (1h) :star:
+- [ ] TODO: vector (1h) :star:
+- [ ] TODO: map (1h)
+- [ ] TODO: set (1h)
  
