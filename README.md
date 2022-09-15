@@ -81,8 +81,8 @@ This is a repo to record my learning process. 😉
 
 #### Template
 
-- [ ] Class templates (1h)
-- [ ] Function templates (1h)
+- [X] [Class templates](./cpp/classTemplate.md) (1h)
+- [X] [Function templates](./cpp/functionTemplate.md) (1h)
 
 #### STL (standard template library)
 
