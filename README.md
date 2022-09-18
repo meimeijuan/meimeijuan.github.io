@@ -58,9 +58,11 @@ This is a repo to record my learning process. 😉
 - [X] **review**: [rule of three](./cpp/ruleOfThree.md) (2h)
 - [X] [name scope](./cpp/nameScope.md)
 - [X] [object lifetime](./cpp/objectLifetime.md)
-- [ ] [static](./cpp/static.md) (0.5h) (star)
+- [X] [static data member](./cpp/staticDataMember.md)
+- [X] [static member function](./cpp/staticMemberFunction.md)
+- [X] [static](./cpp/static.md) (0.5h) (star)
 - [ ] [this](./cpp/this.md) (2h) :star:
-- [ ] [namespace](./cpp/namespace.md) (1h)
+- [X] [namespace](./cpp/namespace.md) (1h)
 - [ ] **review**: constructor review (2h)
 - [ ] **review**: special member function  https://cplusplus.com/doc/tutorial/classes2/
 - [ ] [summary: String](./cpp/exampleString.md)
