@@ -58,8 +58,8 @@ This is a repo to record my learning process. 😉
 - [X] **review**: [rule of three](./cpp/ruleOfThree.md) (2h)
 - [X] [name scope](./cpp/nameScope.md)
 - [X] [object lifetime](./cpp/objectLifetime.md)
-- [X] [static data member](./cpp/staticDataMember.md)
-- [X] [static member function](./cpp/staticMemberFunction.md)
+- [X] [static data member](./cpp/staticMember.md)
+- [X] [static member function](./cpp/staticMember.md)
 - [X] [static](./cpp/static.md) (0.5h) (star)
 - [ ] [this](./cpp/this.md) (2h) :star:
 - [X] [namespace](./cpp/namespace.md) (1h)
