@@ -70,7 +70,7 @@ This is a repo to record my learning process. 😉
 
 #### Oject Oriented: design the relationship between classes
 
-- [ ] composition
+- [X] [composition](./cpp/composition.md)
 - [ ] Delegation
 - [ ] Inheritance
 - [ ] **review**:3 basic relationships: Composition, Delegation and Inheritance
