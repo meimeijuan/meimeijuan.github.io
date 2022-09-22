@@ -13,6 +13,7 @@ This is a repo to record my learning process. 😉
 - [visualizing code](https://pythontutor.com/)
 - [compare various compilers](https://godbolt.org/)
 - [c++ insight](https://cppinsights.io/)
+- [draw UML](https://app.diagrams.net/)
 
 
 **Reference Book**
@@ -71,6 +72,7 @@ This is a repo to record my learning process. 😉
 #### Oject Oriented: design the relationship between classes
 
 - [X] [composition](./cpp/composition.md)
+- [X] **design pattern** : [adapter](./cpp/adapter.md) (0.5h)
 - [ ] Delegation
 - [ ] Inheritance
 - [ ] **review**:3 basic relationships: Composition, Delegation and Inheritance
