@@ -73,7 +73,7 @@ This is a repo to record my learning process. 😉
 
 - [X] [composition](./cpp/composition.md)
 - [X] **design pattern** : [adapter](./cpp/adapter.md) (0.5h)
-- [ ] Delegation
+- [X] [Delegation](./cpp/delegation.md)
 - [ ] Inheritance
 - [ ] **review**:3 basic relationships: Composition, Delegation and Inheritance
 - [ ] **degisn pattern** 
