@@ -74,6 +74,7 @@ This is a repo to record my learning process. 😉
 - [X] [composition](./cpp/composition.md)
 - [X] **design pattern** : [adapter](./cpp/adapter.md) (0.5h)
 - [X] [Delegation](./cpp/delegation.md)
+- [X] **design pattern** : [handle/body, pImpl](./cpp/pImpl.md)
 - [ ] Inheritance
 - [ ] **review**:3 basic relationships: Composition, Delegation and Inheritance
 - [ ] **degisn pattern** 
