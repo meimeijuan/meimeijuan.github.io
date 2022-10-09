@@ -76,6 +76,7 @@ This is a repo to record my learning process. 😉
 - [X] [Delegation](./cpp/delegation.md)
 - [X] **design pattern** : [handle/body, pImpl](./cpp/pImpl.md)
 - [X] [Inheritance with Virtual function](./cpp/inheritance.md)🌶🌶🌶🌶
+- [X] **design pattern** : [Template Method in inheritance](./cpp/templateMethod.md)
 - [ ] **review**:3 basic relationships: Composition, Delegation and Inheritance
 - [ ] **degisn pattern** 
 - [ ] Polymorphism :star: :hot_pepper:
